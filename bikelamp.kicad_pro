@@ -62,7 +62,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "ignore",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -110,6 +110,8 @@
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
@@ -494,6 +496,10 @@
     [
       "fa1ac838-ddbb-4559-ade6-578710b3e6ec",
       ""
+    ],
+    [
+      "a1559bb5-2c5f-4b98-ad82-ef9f27fe5cb2",
+      "LEDs"
     ],
     [
       "d1106fc4-720f-4723-bab0-4688a8b72b56",
