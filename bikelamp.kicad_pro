@@ -209,7 +209,27 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1574800|368300|d41f8200-4854-4c65-9d4c-1e64c0b5e150|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2032000|444500|23fbd920-4384-41c3-9afb-d0023960d450|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2171700|958850|ec5fe1ab-972c-41b0-89cf-090703a6d4cc|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2171700|965200|ec5fe1ab-972c-41b0-89cf-090703a6d4cc|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|558800|1130300|92e94867-3a72-4c5a-aa55-b325a1e69f82|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1358900|825500|e518bb0d-ded5-4ba8-b8b4-8e12c9d13473|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1562100|1003300|6c283dc8-7028-4f4b-bc00-595277e46cec|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1562100|996950|6c283dc8-7028-4f4b-bc00-595277e46cec|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1574800|469900|27eff8ed-e9b4-4471-abe4-45858e56944a|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1765300|1054100|bc3955ac-69bd-4e46-bde7-cf432da5e48f|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1765300|1485900|8af566a4-2695-49a9-ab05-5462bc55f247|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1765300|927100|d67b3857-6244-46e5-9a09-a5ab22b876f8|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|1765300|977900|f6df1324-b96d-45a1-b8df-8fdf678f3652|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2336800|482600|26f5cbc3-4342-44fb-88ed-bc42e92d5986|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2654300|1168400|cab38674-0893-4245-a637-b03c3c5390b0|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|558800|1308100|88b09e8f-7924-4046-9e22-51d4b90d1e93|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|584200|1308100|616e9229-d9e4-4177-9da4-8513f1244e84|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|685800|539750|337f27b9-c9ef-446a-868d-23514625cc3e|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|685800|546100|337f27b9-c9ef-446a-868d-23514625cc3e|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -386,7 +406,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -481,6 +500,10 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -502,8 +525,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
