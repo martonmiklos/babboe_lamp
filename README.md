@@ -1,2 +1,4 @@
-# babboe_lamp
-Heavily overengineered replacement board for Babboe headlight
+# Babboe lamp replacement board
+
+Heavily overengineered replacement board for Babboe headlight.
+
